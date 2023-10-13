@@ -88,23 +88,23 @@ body
     margin-left: 5%;
     margin-top: 40px;
     padding: 25px;
+    display: flex;
+    flex-direction: row;
 
 }
 .leftsidebar 
 {
     width: 30%;
-    height: 350px;
+    height: auto;
     background-color: cadetblue;
-    float: left;
     padding: 15px;
 }
 .rightsidebar 
 {
 
     width: 65%;
-    height: 350px;
+    height: auto;
     background-color: chocolate;
-    float: left; 
     padding: 15px;
 }
 .clearfix 
@@ -215,23 +215,23 @@ body
     margin: 0px !important;
     padding: 0px !important;
     margin-top: 5% !important;
+    display: flex !important;
+    flex-direction: row !important;
 }
 
 .leftsidebar 
 {
     width: 30%;
-    height: 300px;
+    height: auto;
     background-color: lightgray !important;
-    float: left;
     padding: 15px;
 }
 .rightsidebar 
 {
 
     width: 55%;
-    height: 300px;
+    height: auto;
     background-color: cadetblue;
-    float: left; 
     padding: 15px;
 }
 .register 
@@ -250,5 +250,23 @@ body
     padding: 28px 20px;
 }
 
+
+}
+
+/* tablet or smal laptops  screen */
+@media only screen and (min-width:481px) and (max-width:767px)
+{
+
+}
+
+/*small laptops or desktop  screen */
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+
+}
+
+/*large screen devices */
+@media only screen and (min-width:1025px) and (max-width:1440px)
+{
 
 }
