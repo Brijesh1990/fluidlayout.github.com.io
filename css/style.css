@@ -221,18 +221,18 @@ body
 
 .leftsidebar 
 {
-    width: 30%;
-    height: auto;
+    width: 30% !important;
+    height: auto !important;
     background-color: lightgray !important;
-    padding: 15px;
+    padding: 15px !important;
 }
 .rightsidebar 
 {
 
-    width: 55%;
-    height: auto;
-    background-color: cadetblue;
-    padding: 15px;
+    width: 55% !important;
+    height: auto !important;
+    background-color: cadetblue !important;
+    padding: 15px !important;
 }
 .register 
 {
